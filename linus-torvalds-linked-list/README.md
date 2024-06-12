@@ -4,7 +4,7 @@ https://github.com/mkirchner/linked-list-good-taste
 
 ## Artifacts
 
-[Animations](https://docs.google.com/presentation/d/1_q9YeA2Zlb4btYARbilsRcxMXVdPq8CVmRycjS_KrqU/edit?usp=sharing)
+Animations ([google slides](https://docs.google.com/presentation/d/1_q9YeA2Zlb4btYARbilsRcxMXVdPq8CVmRycjS_KrqU/edit?usp=sharing))
 
 ### Iterating over edges
 
