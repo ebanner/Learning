@@ -14,7 +14,7 @@ $\text{YF} = \text{F} (\text{YF})$
 
 ## $\text{YF} \ 0$
 
-Why does $\text{YF} \ 0$ even terminate at all?
+Why does $\text{YF} \ 0$ even terminate at all? 🤔
 
 $$
 \begin{align}
