@@ -68,7 +68,7 @@ $$
 \end{align}
 $$
 
-## $\text{YF}3$ full computation
+## $\text{YF} \ 3$ full computation
 
 $$
 \begin{align}
