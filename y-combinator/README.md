@@ -8,7 +8,7 @@ Let $\text{Y} = \lambda f . [\lambda x . f(xx)][\lambda x . f(xx)]$
 
 Let $\text{F} = \lambda f . \lambda n . [\text{if } n == 0 \text{ then } 1 \text{ else } n * f (n-1)]$
 
-### 🚨 Key Point 🚨
+### ‼️ Key Point
 
 $\text{YF} = \text{F} (\text{YF})$
 
