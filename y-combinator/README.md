@@ -12,6 +12,8 @@ Let $\text{F} = \lambda f . \lambda n . [\text{if } n == 0 \text{ then } 1 \text
 
 $\text{YF} = \text{F} (\text{YF})$
 
+With this Key Point™ you don't even need to know the definition of $\text{Y}$.
+
 ## $\text{YF} \ 0$
 
 Why does $\text{YF} \ 0$ even terminate at all? 🤔
