@@ -1,6 +1,6 @@
 # y-combinator
 
-Application of y combinator to factorial
+How to compute factorial with the [y combinator](https://en.wikipedia.org/wiki/Fixed-point_combinator#Y_combinator)
 
 ## Definitions
 
