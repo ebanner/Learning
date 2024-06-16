@@ -32,7 +32,7 @@ We need laziness! Otherwise $\text{FY} = \text{F} (\text{YF}) = \text{F} (\text{
 
 That is, we just expand $\text{YF}$ once then pass $\text{YF}$ to $\text{F}$ (as a thunk) then apply 0 to that.
 
-## $\text{YF}3$ at a glance
+## $\text{YF} \ 3$ at a glance
 
 $$
 \begin{align}
@@ -47,7 +47,7 @@ $$
 \end{align}
 $$
 
-## $\text{YF}3$ thunkified
+## $\text{YF} \ 3$ thunkified
 
 $$
 \begin{align}
