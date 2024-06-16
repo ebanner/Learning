@@ -1,4 +1,4 @@
-# Linus Torvalds' linked list
+# linus-torvalds-linked-list
 
 https://github.com/mkirchner/linked-list-good-taste
 
