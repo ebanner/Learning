@@ -9,8 +9,10 @@ cd src
 ./configure
 make
 make macosx-app
-# → mit-scheme.app/Contents/Resources/mit-scheme
 ```
+
+`mit-scheme.app/Contents/Resources/mit-scheme` is the scheme executable
+
 ## Spacemacs configuration
 
 ```
