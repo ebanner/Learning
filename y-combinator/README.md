@@ -23,7 +23,7 @@ $$
     \text{YF} \ 0 &= \text{F} (\text{YF}) \ 0 \\
                   &= (\lambda f. \lambda n . [\text{if } n == 0 \text{ then } 1 \text{ else } n * f (n-1)]) (\text{YF}) \ 0 \\
                   &= (\lambda n . [\text{if } n == 0 \text{ then } 1 \text{ else } n * \text{YF}(n-1)]) \ 0 \\
-                  &= [\text{if } 0 == 0 \text{ then } 1 \text{ else } 0 * \text{YF}(0-1)]) \\
+                  &= [\text{if } 0 == 0 \text{ then } 1 \text{ else } 0 * \text{YF}(0-1)] \\
                   &= 1
 \end{align}
 $$
