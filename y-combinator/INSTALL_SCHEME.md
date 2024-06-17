@@ -11,7 +11,7 @@ make
 make macosx-app
 ```
 
-`mit-scheme.app/Contents/Resources/mit-scheme` is the scheme executable
+`mit-scheme.app/Contents/Resources/mit-scheme` is the executable
 
 ## Spacemacs configuration
 
