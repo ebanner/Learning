@@ -47,3 +47,10 @@ Error: retort-syntax
 ; (RESTART 2) => Return to read-eval-print level 2.
 ; (RESTART 1) => Return to read-eval-print level 1.
 ```
+
+This is the closest person who is running into a similar error
+
+https://www.reddit.com/r/emacs/comments/nnuapw/geiser_not_sending_correct_code_to_chicken_repl/
+
+
+Maybe running `./Setup.sh` will fix it (but that requires an existing working scheme binary 😵‍💫)
