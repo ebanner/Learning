@@ -30,7 +30,7 @@ M-x geiser
 
 # TODO
 
-I still haven't got it working where I can send scheme code to a Geiser REPL. I always get this error 🤨
+I still haven't got it working where I can send scheme code to a Geiser REPL. I always get this error 😕
 
 ```
 (+ 1 1)
