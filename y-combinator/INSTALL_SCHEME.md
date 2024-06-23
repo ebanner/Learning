@@ -30,27 +30,4 @@ M-x geiser
 
 # TODO
 
-I still haven't got it working where I can send scheme code to a Geiser REPL. I always get this error 😕
-
-```
-(+ 1 1)
-
-
-Error: retort-syntax
-
-;Unbound variable: geiser:eval
-;To continue, call RESTART with an option number:
-; (RESTART 6) => Specify a value to use instead of geiser:eval.
-; (RESTART 5) => Define geiser:eval to a given value.
-; (RESTART 4) => Return to read-eval-print level 4.
-; (RESTART 3) => Return to read-eval-print level 3.
-; (RESTART 2) => Return to read-eval-print level 2.
-; (RESTART 1) => Return to read-eval-print level 1.
-```
-
-This is the closest person who is running into a similar error
-
-https://www.reddit.com/r/emacs/comments/nnuapw/geiser_not_sending_correct_code_to_chicken_repl/
-
-
-Maybe running `./Setup.sh` will fix it (but that requires an existing working scheme binary 😵‍💫)
+I still haven't got it working where I can send scheme code to a Geiser REPL. I always get [an error](https://www.reddit.com/r/emacs/comments/1djld33/cant_send_mitscheme_code_to_geiser_repl/) 😕
