@@ -1,5 +1,7 @@
 # Learning
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ebanner/Learning/HEAD)
+
 Artifacts I generate in my process of understanding/demystifying things
 
 ## What is this?
