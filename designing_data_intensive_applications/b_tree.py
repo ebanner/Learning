@@ -35,12 +35,6 @@ class Node:
         if self.is_leaf_node():
             self.keys.append(key)
             self.keys.sort()
-    
-            if self.is_overflowing():
-                left_node, right_node = Node(self.keys[:2]), Node(self.keys[3:])
-                k = self.keys[2]
-                children = [left_node, right_node]
-                return k, children
 
         else:
             child_node, i = self._get_child_node(key)
@@ -49,12 +43,19 @@ class Node:
             if isinstance(result, tuple): # push up
                 k, children = result
                 self.keys.append(k)
+                self.keys.sort()
                 self.children = self.children[:i] + children + self.children[i+1:]
+
+        if self.is_overflowing():
+            left_node, right_node = Node(self.keys[:2], self.children[:3]), Node(self.keys[3:], self.children[3:])
+            k = self.keys[2]
+            children = [left_node, right_node]
+            return k, children
             
         
 class BTree:
-    def __init__(self):
-        self.root = Node(keys=[])
+    def __init__(self, root=None):
+        self.root = Node(keys=[]) if not root else root
 
     def __repr__(self):
         return repr(self.root)
@@ -62,24 +63,20 @@ class BTree:
     def add(self, key):
         node = self.root
         result = node.add(key)
-        if isinstance(result, tuple):
+        if isinstance(result, tuple): # push up
             k, children = result
             self.root = Node([k], children)
 
         return self
-            
 
-if __name__ == "__main__":
-    tree = BTree()
+if __name__ == '__main__':
+    tree = BTree(
+        Node(
+            [11, 43, 67, 89], 
+            children=[Node([2, 5, 7]), Node([17, 29, 31, 37]), Node([59, 61]), Node([71, 79, 83]), Node([97, 107])]
+        )
+    )
 
-    tree.add(59)
     tree.add(23)
-    tree.add(7)
-    tree.add(97)
-    tree.add(73)
-
-    tree.add(67)
-    tree.add(19)
-    tree.add(79)
 
     print(tree)
